@@ -37,7 +37,8 @@ Python source code is automatically compiled into Python byte code by the CPytho
  
 **4. Arrays**
 
-In python arrays and lists are same - what is that means ? array have inbuilt functions (like jave collection) 
+In python arrays and lists are same - what is that means ? array have inbuilt functions for adding, deleting and insert at position (like java list collection) 
+
  **Example**
  
      my_list = ["cat", "cow", "orange", "hello"]
