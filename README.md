@@ -55,6 +55,8 @@ In python arrays and lists are same - what is that means ? array have inbuilt fu
      print(my_list)
      [ "cat", "cow", "orange", "hello", "Honda"]
      append() -- append will add an element at end of the list, always take constant time O(1)
+     **Why append() will take constant time ?**
+      
     
 4. control statements 
 
