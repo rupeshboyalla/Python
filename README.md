@@ -33,7 +33,7 @@ Python source code is automatically compiled into Python byte code by the CPytho
 
 **3. IDE**
 
- pycharm or any IDE 
+ PyCharm or any IDE 
  
 **4. Arrays**
 
