@@ -1,6 +1,6 @@
 # Python
 
-**1. What is differnce between Python and Java:
+**1. What is differnce between Python and Java:**
 
   **Java is a statically typed**:  In Java, all variable names (along with their types) must be explicitly declared. Attempting to assign an object of the wrong type to a variable name triggers a type exception. That’s what it means to say that Java is a statically typed language.
   Java container objects (e.g. Strings and ArrayList) hold objects of the generic type Object, but cannot hold primitives such as int. To store an int in a Vector, you must first convert the int to an Integer. When you retrieve an object from a container, it doesn’t remember its type, and must be explicitly cast to the desired type.
@@ -20,6 +20,7 @@ Python container objects (e.g. lists and dictionaries) can hold objects of any t
     if myString == "0": ...
     
  **Braces vs Indentation**
+ 
 Java, like most other languages, uses curly braces to define the beginning and end of each function and class definition.
 
 Python is unusual among programming languages in that it uses indentation to separate code into blocks. 
@@ -27,9 +28,11 @@ Python is unusual among programming languages in that it uses indentation to sep
 The advantage of using indentation is that it forces you to set your program out in a way that is easy to read, and there is no chance of errors resulting from a missing brace.
     
 **2. Python how code is code compiling**
+
 Python source code is automatically compiled into Python byte code by the CPython interpreter. Compiled code is usually stored in PYC (or PYO) files, and is regenerated when the source is updated, or when otherwise necessary
 
 **3. IDE**
+
  pycharm or any IDE 
 
 4. control statements
