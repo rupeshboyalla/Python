@@ -40,7 +40,19 @@ Python source code is automatically compiled into Python byte code by the CPytho
 In python arrays and lists are same - what is that means ? array have inbuilt functions for adding, deleting and insert at position (like java list collection) 
 
  **Example**
- 
+
+    append() - Add an element to the end of the list
+    extend() - Add all elements of a list to the another list
+    insert() - Insert an item at the defined index
+    remove() - Removes an item from the list
+    pop() - Removes and returns an element at the given index
+    clear() - Removes all items from the list
+    index() - Returns the index of the first matched item
+    count() - Returns the count of number of items passed as an argument
+    sort() - Sort items in a list in ascending order
+    reverse() - Reverse the order of items in the list
+    copy() - Returns a shallow copy of the list
+    
      my_list = ["cat", "cow", "orange", "hello"]
      print(my_list)
      ["cat", "cow", "orange", "hello"]
@@ -56,6 +68,7 @@ In python arrays and lists are same - what is that means ? array have inbuilt fu
      [ "cat", "cow", "orange", "hello", "Honda"]
      append() -- append will add an element at end of the list, always take constant time O(1)
      Why append() will take constant time ?
+     Algo - https://en.wikipedia.org/wiki/Amortized_analysis
      It's amortized O(1), not O(1).
     Let's say the list reserved size is 8 elements and it doubles in size when space runs out. You want to push 50 elements.
     The first 8 elements push in O(1). The nineth triggers reallocation and 8 copies, followed by an O(1) push. The next 
@@ -64,7 +77,9 @@ In python arrays and lists are same - what is that means ? array have inbuilt fu
     So all of the pushes have O(1) complexity, we had 56 copies at O(1), and 3 reallocations at O(n), with n = 8, 16, and
     32. Note that this is a geometric series and asymptotically equals O(n) with n = the final size of the list. That 
     means the whole operation of pushing n objects onto the list is O(n). If we amortize that per element, it's O(n)/n = O(1).
-
+    
+    
+    
 
       
     
