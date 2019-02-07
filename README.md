@@ -39,20 +39,19 @@ Python source code is automatically compiled into Python byte code by the CPytho
 
 In python arrays and lists are same - what is that means ? array have inbuilt functions (like jave collection) 
  **Example**
-   my_list = [ "cat", "cow", "orange", "hello"]
-   
-   print(my_list[0])
-    >>> cat 
-   my_list[0] = "dog"
-   print(my_list[0])
-   >>> dog 
-   my_list.append("Honda")
-   print(my_list)
-   [ "cat", "cow", "orange", "hello", "Honda"]
-   
-   append() -- take constant time O(1)
+ 
+     my_list = ["cat", "cow", "orange", "hello"]
+     print(my_list[0])
+     >>> cat 
+     my_list[0] = "dog"
+     print(my_list[0])
+     >>> dog 
+     my_list.append("Honda")
+     print(my_list)
+     [ "cat", "cow", "orange", "hello", "Honda"]
+     append() -- take constant time O(1)
     
-4. control statements
+4. control statements 
 
 5. Strings 
 
