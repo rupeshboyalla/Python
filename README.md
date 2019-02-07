@@ -19,6 +19,12 @@ Python container objects (e.g. lists and dictionaries) can hold objects of any t
     myString = str(myCounter)
     if myString == "0": ...
     
+ **Braces vs Indentation**
+Java, like most other languages, uses curly braces to define the beginning and end of each function and class definition.
+
+Python is unusual among programming languages in that it uses indentation to separate code into blocks. 
+
+The advantage of using indentation is that it forces you to set your program out in a way that is easy to read, and there is no chance of errors resulting from a missing brace.
     
 2. Python how code is code compiling  
 
