@@ -29,7 +29,7 @@ copy() - Returns a shallow copy of the list
     print(my_list[0])
     >>> dog 
     
-append()
+append()- Add an element to the end of the list
 
     my_list.append("Honda")
     print(my_list)
@@ -46,7 +46,7 @@ append()
     32. Note that this is a geometric series and asymptotically equals O(n) with n = the final size of the list. That 
     means the whole operation of pushing n objects onto the list is O(n). If we amortize that per element, it's O(n)/n = O(1).
     
-extend()
+extend() - Add all elements of a list to the another list
 
     my_list = ["cat", "cow", "orange", "hello"]
     new_list.extend(my_lsit)
@@ -56,17 +56,18 @@ extend()
     new_list1.extends(my_list)
     print(new_list1)
     >>> ["mac", "windows", "cat", "cow", "orange", "hello"]
-    Time Complexity for extend O(k) where k is the number of elements in list, always new list is added at the end of the list.
+    Time Complexity for extend O(k) where k is the number of elements in list, always new list is added 
+    at the end of the list.
     
-insert()
+insert() - Insert an item at the defined index
     
     insert(index, object) index --> position where to insert
     my_list.insert(1, "apple")
-    print(new_list)
+    print(my_list)
     >>> ["cat", "apple", "orange", "hello"]
     Time Complexity for insert is O(n) all the elements are reshuffled 
 
-remove()
+remove() - Removes an item from the list
     
     remove(object) removes frist occurance of an element, if element is not present Raises ValueError if 
     the value is not present.
@@ -74,6 +75,19 @@ remove()
     print (my_list)
     >>> ["cat", "orange", "hello"]
     Time Complexity for remove is O(n)
+    my_list.remove("apple")
+    >>> valueError: list.remove(x): x not in list
+    
+pop() - Removes and returns an element at the given index
 
-      
+    pop() removes last element in the list, Raises IndexError if list is empty or index is out of range
+    print (my_list)
+    >>> ["cat", "orange", "hello"]
+    print(my_list.pop())
+    >>> hello
+    print (my_list)
+    >>>["cat", "orange"]
+    
+    
+
     
