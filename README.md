@@ -54,8 +54,10 @@ In python arrays and lists are same - what is that means ? array have inbuilt fu
     copy() - Returns a shallow copy of the list
 
     my_list = ["cat", "cow", "orange", "hello"]
-    print(my_list)
+    print(my_list))
     ["cat", "cow", "orange", "hello"]
+    print(len(my_list))
+    >>> 4
     print(my_list[0])
     >>> cat 
     my_list[0] = "dog"
@@ -90,9 +92,10 @@ In python arrays and lists are same - what is that means ? array have inbuilt fu
     print(new_list1)
     >>> ["mac", "windows", "cat", "cow", "orange", "hello"]
     Time Complexity for O(k) where k is the number of elements in list 
+    ==========    ==========    ==========    ==========    ==========    ==========    ==========    =========
+    insert()
+    
    
-    
-    
     
 
       
