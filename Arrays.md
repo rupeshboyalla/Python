@@ -4,16 +4,16 @@
  
  **Arrays Inbuilt operations**
 
-append() - Add an element to the end of the list
-extend() - Add all elements of a list to the another list
-insert() - Insert an item at the defined index
-remove() - Removes an item from the list
-pop() - Removes and returns an element at the given index
-clear() - Removes all items from the list
-index() - Returns the index of the first matched item
-count() - Returns the count of number of items passed as an argument
-sort() - Sort items in a list in ascending order
-reverse() - Reverse the order of items in the list
+append() - Add an objects to the end of the list
+extend() - Add all objects of a list to the another list
+insert() - Insert an object at the defined index
+remove() - Removes an object from the list
+pop() - Removes and returns an object at the given index
+clear() - Removes all objects from the list
+index() - Returns the index of the first matched objects
+count() - Returns the count of number of objects passed as an argument
+sort() - Sort objects in a list in ascending order
+reverse() - Reverse the order of objects in the list
 copy() - Returns a shallow copy of the list
 
     my_list = ["cat", "cow", "orange", "hello"]
@@ -29,12 +29,12 @@ copy() - Returns a shallow copy of the list
     print(my_list[0])
     >>> dog 
     
-append()- Add an element to the end of the list
+append()- Add an object to the end of the list
 
     my_list.append("Honda")
     print(my_list)
     [ "cat", "cow", "orange", "hello", "Honda"]
-    append() -- append will add an element at end of the list, always take constant time O(1)
+    append() -- append will add an object at end of the list, always take constant time O(1)
     Why append() will take constant time ?
     Algo - https://en.wikipedia.org/wiki/Amortized_analysis
     It's amortized O(1), not O(1).
@@ -46,7 +46,7 @@ append()- Add an element to the end of the list
     32. Note that this is a geometric series and asymptotically equals O(n) with n = the final size of the list. That 
     means the whole operation of pushing n objects onto the list is O(n). If we amortize that per element, it's O(n)/n = O(1).
     
-extend() - Add all elements of a list to the another list
+extend() - Add all object of a list to the another list
 
     my_list = ["cat", "cow", "orange", "hello"]
     new_list.extend(my_lsit)
@@ -56,20 +56,20 @@ extend() - Add all elements of a list to the another list
     new_list1.extends(my_list)
     print(new_list1)
     >>> ["mac", "windows", "cat", "cow", "orange", "hello"]
-    Time Complexity for extend O(k) where k is the number of elements in list, always new list is added 
+    Time Complexity for extend O(k) where k is the number of object in list, always new list is added 
     at the end of the list.
     
-insert() - Insert an item at the defined index
+insert() - Insert an object at the defined index
     
     insert(index, object) index --> position where to insert
     my_list.insert(1, "apple")
     print(my_list)
     >>> ["cat", "apple", "orange", "hello"]
-    Time Complexity for insert is O(n) all the elements are reshuffled 
+    Time Complexity for insert is O(n) all the object are reshuffled 
 
 remove() - Removes an item from the list
     
-    remove(object) removes frist occurance of an element, if element is not present Raises ValueError if 
+    remove(object) removes frist occurance of an object, if object is not present Raises ValueError if 
     the value is not present.
     my_list.remove("apple")
     print (my_list)
@@ -78,9 +78,9 @@ remove() - Removes an item from the list
     my_list.remove("apple")
     >>> valueError: list.remove(x): x not in list
     
-pop() - Removes and returns an element at the given index
+pop() - Removes and returns an object at the at the end of list
 
-    pop() removes last element in the list, Raises IndexError if list is empty or index is out of range
+    pop() removes last object in the list, Raises IndexError if list is empty or index is out of range
     print (my_list)
     >>> ["cat", "orange", "hello"]
     print(my_list.pop())
@@ -88,6 +88,48 @@ pop() - Removes and returns an element at the given index
     print (my_list)
     >>>["cat", "orange"]
     
-    
+clear() - Removes all objects from the list
+   
+    clear() removes all objests from the list  
+    print (my_list)
+    >>>["cat", "orange"]
+    my_list.clear()
+    print(my_list)
+    >>> [] --> returns empty list 
 
+index() - Returns the index of the first matched objects
     
+     index() L.index(value, [start, [stop]]) -> integer -- return first index of value.
+     returns index of an object 
+     my_list = ["cat", "orange"]
+     print(my_list.index("orange"))
+     >>> 1
+     Time complexity is O(k) where k is the index of an element 
+     
+count() - Returns the count of number of objects passed as an argument 
+     
+     count() returns number of time object in the list. 
+     print(my_list.count("cat"))
+     >>> 1
+     Time complexity is O(n) 
+     
+sort() - Sort objects in a list in ascending order
+
+     sort() -- time compelxity for a O(n log n)
+     https://en.wikipedia.org/wiki/Timsort
+     my_list = [5,3,4,1,2]
+     my_list.sort()
+     print(my_list)
+     >>> [1, 2, 3, 4, 5]
+
+reverse() - Reverse the order of objects in the list
+
+    reverse() - reverse objects in the list 
+     my_list.reverse()
+     print(my_list)
+     >>> [5, 4, 3, 2, 1]
+     
+copy() - Returns a shallow copy of the list
+   
+    copy() 
+     
