@@ -136,6 +136,6 @@ copy() - Returns a shallow copy of the list
     objects themselves. In case of shallow copy, a reference of object is copied in other object. It means that any 
     changes made to a copy of object do reflect in the original object. In python, this is implemented using “copy()” 
     function.
-    
+    <img width="501" alt="screen shot 2019-02-09 at 12 32 17 pm" src="https://user-images.githubusercontent.com/11428274/52526069-49ecfe00-2c68-11e9-8bab-460d383b72cf.png">
    
      
