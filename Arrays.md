@@ -131,5 +131,11 @@ reverse() - Reverse the order of objects in the list
      
 copy() - Returns a shallow copy of the list
    
-    copy() 
+   A shallow copy means constructing a new collection object and then populating it with references to the child objects 
+   found in the original. The copying process does not recurse and therefore won’t create copies of the child 
+   objects themselves. In case of shallow copy, a reference of object is copied in other object. It means that any 
+   changes made to a copy of object do reflect in the original object. In python, this is implemented using “copy()” 
+   function.
+   
+   
      
