@@ -16,6 +16,7 @@ sort() - Sort objects in a list in ascending order
 reverse() - Reverse the order of objects in the list
 copy() - Returns a shallow copy of the list
 
+
     my_list = ["cat", "cow", "orange", "hello"]
     print(my_list))
     ["cat", "cow", "orange", "hello"]
