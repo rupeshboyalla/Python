@@ -4,17 +4,17 @@
  
  **Arrays Inbuilt operations**
 
-    append() - Add an objects to the end of the list
-    extend() - Add all objects of a list to the another list
-    insert() - Insert an object at the defined index
-    remove() - Removes an object from the list
-    pop() - Removes and returns an object at the given index
-    clear() - Removes all objects from the list
-    index() - Returns the index of the first matched objects
-    count() - Returns the count of number of objects passed as an argument
-    sort() - Sort objects in a list in ascending order
-    reverse() - Reverse the order of objects in the list
-    copy() - Returns a shallow copy of the list
+append() - Add an objects to the end of the list
+extend() - Add all objects of a list to the another list
+insert() - Insert an object at the defined index
+remove() - Removes an object from the list
+pop() - Removes and returns an object at the given index
+clear() - Removes all objects from the list
+index() - Returns the index of the first matched objects
+count() - Returns the count of number of objects passed as an argument
+sort() - Sort objects in a list in ascending order
+reverse() - Reverse the order of objects in the list
+copy() - Returns a shallow copy of the list
 
 
     my_list = ["cat", "cow", "orange", "hello"]
