@@ -4,17 +4,17 @@
  
  **Arrays Inbuilt operations**
 
-append() - Add an objects to the end of the list
-extend() - Add all objects of a list to the another list
-insert() - Insert an object at the defined index
-remove() - Removes an object from the list
-pop() - Removes and returns an object at the given index
-clear() - Removes all objects from the list
-index() - Returns the index of the first matched objects
-count() - Returns the count of number of objects passed as an argument
-sort() - Sort objects in a list in ascending order
-reverse() - Reverse the order of objects in the list
-copy() - Returns a shallow copy of the list
+append() - Add an objects to the end of the list <br />
+extend() - Add all objects of a list to the another list <br />
+insert() - Insert an object at the defined index <br />
+remove() - Removes an object from the list <br />
+pop() - Removes and returns an object at the given index <br />
+clear() - Removes all objects from the list <br />
+index() - Returns the index of the first matched objects <br />
+count() - Returns the count of number of objects passed as an argument <br />
+sort() - Sort objects in a list in ascending order <br />
+reverse() - Reverse the order of objects in the list <br />
+copy() - Returns a shallow copy of the list <br />
 
 
     my_list = ["cat", "cow", "orange", "hello"]
@@ -140,5 +140,7 @@ copy() - Returns a shallow copy of the list
     
 <img width="501" alt="screen shot 2019-02-09 at 12 32 17 pm" src="https://user-images.githubusercontent.com/11428274/52526069-49ecfe00-2c68-11e9-8bab-460d383b72cf.png">
     
-    new
+    new_list = my_list.copy()
+    print(new_list)
+    >>> [5, 4, 3, 2, 1]
      
